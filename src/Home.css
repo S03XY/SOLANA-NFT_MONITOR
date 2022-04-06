@@ -1,0 +1,69 @@
+.customtable tr th {
+  padding: 10px 50px;
+  border: 2px solid black;
+}
+.customtable {
+  margin-top: 20px;
+}
+.customtable tr {
+  margin-top: 20px;
+}
+
+.customtable tr td {
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.datarow td {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+  border: 2px solid white;
+}
+
+.monitoringbox {
+  height: auto;
+  max-height: 50vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-width: 30vw;
+  background-color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.monitoringbox::-webkit-scrollbar {
+  /* display: none; */
+}
+
+.monitoringbox h3 {
+  border: 2px solid white;
+  margin: 10px 20px;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nftcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px 0px;
+   border-radius: 5px; 
+
+}
+
+.nftcontainer img {
+  object-fit: contain;
+  height: 200px;
+  width: 200px;
+}
